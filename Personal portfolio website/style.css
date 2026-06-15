@@ -1,0 +1,101 @@
+/* Styling for the entire webpage */
+body {
+    /* Set default font style */
+    font-family: Arial, sans-serif;
+
+    /* Remove default browser margin */
+    margin: 0;
+
+    /* Remove default browser padding */
+    padding: 0;
+
+    /* Set spacing between lines */
+    line-height: 1.6;
+}
+
+/* Header section styling */
+header {
+    /* Dark background color */
+    background-color: #333;
+
+    /* White text color */
+    color: #fff;
+
+    /* Add padding top and bottom */
+    padding: 10px 0;
+}
+
+/* Navigation menu list styling */
+header nav ul {
+    /* Remove bullet points */
+    list-style: none;
+
+    /* Display items in horizontal line */
+    display: flex;
+
+    /* Center navigation items */
+    justify-content: center;
+}
+
+/* Navigation list item spacing */
+header nav ul li {
+    /* Space between menu items */
+    margin: 0 15px;
+}
+
+/* Navigation links styling */
+header nav ul li a {
+    /* White text color */
+    color: #fff;
+
+    /* Remove underline from links */
+    text-decoration: none;
+}
+
+/* Common styling for all sections */
+section {
+    /* Add padding inside sections */
+    padding: 50px;
+
+    /* Center align text */
+    text-align: center;
+}
+
+/* Profile image styling in About section */
+section#about img {
+    /* Set image width */
+    width: 150px;
+
+    /* Make image circular */
+    border-radius: 50%;
+}
+
+/* Project section spacing */
+.project {
+    /* Add margin around project box */
+    margin: 20px 0;
+}
+
+/* Project image styling */
+.project img {
+    /* Set image width */
+    width: 300px;
+
+    /* Add light border around image */
+    border: 1px solid #ccc;
+}
+
+/* Footer section styling */
+footer {
+    /* Dark background color */
+    background-color: #333;
+
+    /* White text color */
+    color: #fff;
+
+    /* Center align text */
+    text-align: center;
+
+    /* Add padding inside footer */
+    padding: 10px;
+}
